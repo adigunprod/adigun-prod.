@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ADIGUN PROD — Production audiovisuelle</title>
+<meta name="description" content="ADIGUN PROD — Animateur, Cadreur, Monteur. Production audiovisuelle à Abidjan.">
+<style>
+:root{--gold:#d7a53a;--gold2:#f4d27a;--black:#070707;--panel:#111;--white:#f7f5ef;--muted:#b8b5ad}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--black);color:var(--white);font-family:Inter,Arial,sans-serif}
+a{color:inherit;text-decoration:none}.container{width:min(1120px,92%);margin:auto}
+nav{position:fixed;top:0;left:0;right:0;z-index:10;background:rgba(7,7,7,.82);backdrop-filter:blur(12px);border-bottom:1px solid rgba(215,165,58,.18)}
+.navin{height:74px;display:flex;align-items:center;justify-content:space-between}.brand{font-weight:900;letter-spacing:3px}.brand span{color:var(--gold)}
+.links{display:flex;gap:28px;font-size:14px}.links a:hover{color:var(--gold2)}
+.hero{min-height:100vh;display:grid;place-items:center;padding:110px 0 70px;position:relative;overflow:hidden}
+.hero:before{content:"";position:absolute;width:650px;height:650px;border-radius:50%;background:radial-gradient(circle,rgba(215,165,58,.14),transparent 65%);right:-180px;top:80px}
+.grid{display:grid;grid-template-columns:1.05fr .95fr;gap:55px;align-items:center;position:relative}
+.kicker{color:var(--gold2);letter-spacing:4px;text-transform:uppercase;font-size:12px;font-weight:800}
+h1{font-size:clamp(48px,9vw,100px);line-height:.86;margin:18px 0;background:linear-gradient(120deg,#fff,var(--gold2),#a86b12);-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero h2{font-size:clamp(22px,3vw,38px);margin:0 0 18px}.hero p{color:var(--muted);max-width:600px;line-height:1.8}
+.buttons{display:flex;gap:14px;flex-wrap:wrap;margin-top:30px}.btn{padding:14px 20px;border:1px solid rgba(215,165,58,.6);border-radius:999px;font-weight:800}.btn.primary{background:var(--gold);color:#090909}.btn:hover{transform:translateY(-2px)}
+.logo-card{background:linear-gradient(145deg,#0d0d0d,#15120d);border:1px solid rgba(215,165,58,.28);padding:14px;box-shadow:0 30px 90px rgba(0,0,0,.6);border-radius:22px}.logo-card img{display:block;width:100%;border-radius:14px}
+section{padding:100px 0;border-top:1px solid rgba(255,255,255,.06)}.section-title{font-size:40px;margin:0 0 12px}.sub{color:var(--muted);margin-bottom:38px}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{background:var(--panel);border:1px solid rgba(255,255,255,.08);padding:28px;border-radius:18px}.card:hover{border-color:rgba(215,165,58,.45);transform:translateY(-4px);transition:.25s}.icon{font-size:28px}.card h3{margin:14px 0 8px}.card p{color:var(--muted);line-height:1.7}
+.about{display:grid;grid-template-columns:.7fr 1.3fr;gap:50px;align-items:center}.portrait{width:100%;max-width:420px;border-radius:20px;border:1px solid rgba(215,165,58,.3);display:block}.about p{color:var(--muted);line-height:1.9}.tag{display:inline-block;padding:9px 13px;border:1px solid rgba(215,165,58,.35);border-radius:999px;margin:5px 5px 0 0;color:#e7dfce;font-size:13px}
+.portfolio{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.work{min-height:220px;border-radius:18px;overflow:hidden;position:relative;background:#161616;border:1px solid rgba(255,255,255,.08)}.work img{width:100%;height:100%;object-fit:cover;display:block;opacity:.8}.work .label{position:absolute;left:16px;bottom:14px;font-weight:900;text-shadow:0 2px 14px #000}
+.contact{display:grid;grid-template-columns:1fr 1fr;gap:20px}.contactbox{background:linear-gradient(145deg,#121212,#0c0c0c);border:1px solid rgba(215,165,58,.22);padding:35px;border-radius:20px}.phone{font-size:28px;font-weight:900;color:var(--gold2);margin:12px 0 20px}
+footer{padding:35px 0;color:#8f8b83;border-top:1px solid rgba(255,255,255,.07);font-size:13px}.gold{color:var(--gold2)}
+@media(max-width:800px){.links{display:none}.grid,.about,.contact{grid-template-columns:1fr}.hero{padding-top:105px}.cards,.portfolio{grid-template-columns:1fr}.logo-card{max-width:520px;margin:auto}.section-title{font-size:32px}.navin{height:64px}}
+</style>
+</head>
+<body>
+<nav><div class="container navin">
+<a class="brand" href="#accueil">ADIGUN <span>PROD</span></a>
+<div class="links"><a href="#accueil">Accueil</a><a href="#services">Services</a><a href="#apropos">À propos</a><a href="#portfolio">Portfolio</a><a href="#contact">Contact</a></div>
+</div></nav>
+
+<header id="accueil" class="hero"><div class="container grid">
+<div>
+<div class="kicker">Production audiovisuelle</div>
+<h1>ADIGUN<br>PROD</h1>
+<h2>Donner vie aux idées. Capturer les moments.</h2>
+<p>Animateur • Cadreur • Monteur. Une identité audiovisuelle moderne, créative et professionnelle.</p>
+<div class="buttons"><a class="btn primary" href="#contact">Me contacter</a><a class="btn" href="#portfolio">Voir le portfolio</a></div>
+</div>
+<div class="logo-card"><img src="logo.jpg" alt="Logo ADIGUN PROD"></div>
+</div></header>
+
+<section id="services"><div class="container">
+<div class="kicker">Ce que je fais</div><h2 class="section-title">Services</h2><p class="sub">Des prestations pensées pour donner une image forte à chaque projet.</p>
+<div class="cards">
+<div class="card"><div class="icon">🎤</div><h3>Animation</h3><p>Animation d'événements, présentation et création d'une ambiance dynamique avec le public.</p></div>
+<div class="card"><div class="icon">🎥</div><h3>Cadre</h3><p>Prise de vues et cadrage pour événements, contenus et projets audiovisuels.</p></div>
+<div class="card"><div class="icon">✂️</div><h3>Montage</h3><p>Montage vidéo, rythme, sélection des plans et mise en valeur du message.</p></div>
+</div></div></section>
+
+<section id="apropos"><div class="container about">
+<img class="portrait" src="portrait.jpg" alt="ADIGUN MUHAMMED">
+<div><div class="kicker">À propos</div><h2 class="section-title">ADIGUN MUHAMMED</h2>
+<p>Passionné par l'audiovisuel, je développe mon expérience à travers l'animation, le cadrage et le montage. ADIGUN PROD est mon univers de création : transformer une idée ou un moment en contenu visuel qui mérite d'être vu.</p>
+<div><span class="tag">Animateur</span><span class="tag">Cadreur</span><span class="tag">Monteur</span><span class="tag">Production audiovisuelle</span></div>
+</div></div></section>
+
+<section id="portfolio"><div class="container">
+<div class="kicker">Réalisations</div><h2 class="section-title">Portfolio</h2><p class="sub">Quelques images de l'univers ADIGUN PROD.</p>
+<div class="portfolio">
+<div class="work"><img src="portrait.jpg" alt="Projet ADIGUN PROD"><div class="label">Portrait & image</div></div>
+<div class="work"><img src="logo.jpg" alt="Identité ADIGUN PROD"><div class="label">Identité visuelle</div></div>
+<div class="work" style="display:grid;place-items:center"><div style="text-align:center;padding:20px"><div style="font-size:48px">▶</div><strong>Projets vidéo</strong><p style="color:#aaa">Ajoute tes vidéos ici</p></div></div>
+</div></div></section>
+
+<section id="contact"><div class="container contact">
+<div><div class="kicker">Contact</div><h2 class="section-title">Un projet ? Parlons-en.</h2><p class="sub">Pour une animation, une captation ou un montage, contacte ADIGUN PROD.</p></div>
+<div class="contactbox"><div>WhatsApp / Téléphone</div><div class="phone">0546576641</div><a class="btn primary" href="https://wa.me/2250546576641">Écrire sur WhatsApp</a></div>
+</div></section>
+
+<footer><div class="container">© 2026 <span class="gold">ADIGUN PROD</span> — Production audiovisuelle.</div></footer>
+</body></html>
